@@ -1,9 +1,10 @@
 # Projeto Gulliver
 
- Introdução
-Integração da API do Google Maps e Busca de Hotéis do Booking.com para o projeto Gulliver. Para controlar a busca de hotéis e testar o funcionamento das API's, é necessário abrir a página “index.html”, preencher os campos do formulário de busca e clicar em “Buscar”.
+## Introdução
+Integração da API do Google Maps e Busca de Hotéis do Booking.com para o projeto Gulliver. 
+Para controlar a busca de hotéis e testar o funcionamento das API's, é necessário abrir a página “index.html”, preencher os campos do formulário de busca e clicar em “Buscar”.
 
-### Amostra de Códigos
+## Amostra de Códigos
 APIs Booking.com
 
 ```
@@ -31,7 +32,7 @@ function initMap() {
 }
 ```
 
-### Implementação JS das API's
+## Implementação JS das API's
 
 Utilizando o API Key da integração com RapidAPI para gerar uma conexão com a base de busca de hotéis, por meio de um end-point.
 Utilizamos a API do Google Maps para criar um iframe com a localização do hotel.
