@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@
 }
 
 html {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 16px;
 }
 
@@ -37,8 +38,8 @@ body {
 
 }
 
-#controls{
-    filter:invert(100%) ;
+#controls {
+    filter: invert(100%);
     width: 200px;
     height: 25px;
 }
@@ -56,8 +57,8 @@ body {
     width: 80%;
     height: 7vh;
     display: flex;
-    align-items:center;
-    justify-content:flex-start;
+    align-items: center;
+    justify-content: flex-start;
     color: #fff;
     font-size: 1.2em
 }
@@ -71,12 +72,12 @@ body {
 
 ul {
     list-style: none;
-  }
+}
 
 .header a {
     text-decoration: none;
     color: #F24405;
-  }
+}
 
 .header a:hover {
     width: 50px;
@@ -85,13 +86,14 @@ ul {
     font-weight: 700;
     transition: 0.2s;
 }
+
 .header {
     width: 100%;
     height: 50px;
     background-color: #F5F5F5;
     margin-top: 0px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -101,77 +103,78 @@ ul {
     box-sizing: border-box;
 }
 
-.header__icons{
+.header__icons {
     font-size: 18px;
 }
 
 .header__menu ul {
     display: flex;
     justify-content: flex-end;
-    margin: 0 30px 0 0; 
-    font-weight: bold;
-    letter-spacing: 1px; 
-  }
-
-.links__menu {  
-    display: flex;
-    justify-content:flex-end;
-  }
-
-  .links__menu a{
     margin: 0 30px 0 0;
-  }
+    font-weight: bold;
+    letter-spacing: 1px;
+}
 
-.pesquisar{
-    width: 98,5vw;
+.links__menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links__menu a {
+    margin: 0 30px 0 0;
+}
+
+
+.pesquisar {
+    width: 98, 5vw;
     height: 110vh;
     margin: 0 auto 0px;
-    background-image: url(../img/familiaviaem.jpg);
+    background-image: url(../img/Journey-pana.svg);
     background-size: cover;
     display: flex;
     flex-direction: column;
 }
 
-.pesquisar h2{
-    color: #fff;
-    margin: 30px 0 5px 25px;
-    font-size: 3.8rem;
-    letter-spacing: 2px;
+.pesquisar h2 {
+    color: #F24405;
+    margin: 50px 50px 50px 330px;
+    font-size: 3rem;
+    justify-items: center;
 }
 
 .base {
-    width: 85vw;
-    height:15vh;
-    margin: 150px auto;
+    width: 50vw;
+    height: 30vh;
+    margin: 400px auto;
     padding: 15px;
-    background-color:	#87CEEB;
+    background-color: #033e8c4d;
     display: flex;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
-.tipo{
+.tipo {
     width: 20%;
     height: 80%;
     /* background-color: #FFF; */
-    margin: 5px ;
-    display:flex;
+    margin: 5px;
+    display: flex;
 }
 
-.buscar{
+.buscar {
     width: 30%;
     height: 80%;
     /* background-color: #FFF; */
-    margin: 5px ;
-    display:flex;
+    margin: 5px;
+    display: flex;
 }
 
-.datas{
-    width: 12,5%;
+.datas {
+    width: 12, 5%;
     height: 80%;
     /* background-color: #FFF; */
-    margin: 5px ;
-    display:flex;
+    margin: 5px;
+    display: flex;
     gap: 5px;
 }
 
@@ -184,31 +187,31 @@ ul {
     padding: 3px 5px;
     color: #F24405;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: bold;
 }
 
-::placeholder{
+::placeholder {
     color: #F24405;
 }
 
-.botao{
-    width: 20%;
-    height: 80%;
-    background-color: #F24405;
-    border-radius: 10px;
-    margin: 5px;
+.botao {
+    width: 50%;
+    height: 110%;
+    background-color: #033e8c75;
+    border-radius: 20px;
+    margin: 1px;
     text-align: center;
 }
 
-.botao h3{
+.botao h3 {
     font-size: 1.8rem;
     color: #FFF;
     margin-top: 10px;
     align-items: center;
 }
 
-.botao:hover{
+.botao:hover {
     background-color: #033e8c;
     color: #fff;
     font-weight: 700;
@@ -482,31 +485,32 @@ a {
 
 .rodape {
     width: 100%;
-    height: 10vh;
+    height: 5vh;
     display: flex;
-    padding: 50px;
+    padding: 5px;
     flex-direction: column;
     align-items: center;
     background-image: radial-gradient(circle at 77% 43%, rgba(168, 168, 168, 0.04) 0%, rgba(168, 168, 168, 0.04) 50%, rgba(10, 10, 10, 0.04) 50%, rgba(10, 10, 10, 0.04) 100%), radial-gradient(circle at 33% 65%, rgba(248, 248, 248, 0.04) 0%, rgba(248, 248, 248, 0.04) 50%, rgba(228, 228, 228, 0.04) 50%, rgba(228, 228, 228, 0.04) 100%), radial-gradient(circle at 92% 79%, rgba(152, 152, 152, 0.04) 0%, rgba(152, 152, 152, 0.04) 50%, rgba(28, 28, 28, 0.04) 50%, rgba(28, 28, 28, 0.04) 100%), radial-gradient(circle at 91% 13%, rgba(41, 41, 41, 0.04) 0%, rgba(41, 41, 41, 0.04) 50%, rgba(214, 214, 214, 0.04) 50%, rgba(214, 214, 214, 0.04) 100%), linear-gradient(270deg, rgb(242, 116, 5), rgb(5, 199, 242));
     background-size: cover;
     color: #FFF;
-  }
+}
 
-.midias{
+.midias {
     display: flex;
     font-size: 4vh;
 }
 
-.midias a{
+.midias a {
     margin: 10px 10px 0;
     color: #fff;
 }
+
 /* media queries */
 
-@media (max-width: 1920px){
-    .tipo{
+@media (max-width: 1920px) {
+    .tipo {
         width: 30%;
-        height: 84%;    
+        height: 84%;
     }
 
     .acessibilidade_mobile {
@@ -515,7 +519,7 @@ a {
 
 }
 
-@media (max-width: 960px){
+@media (max-width: 960px) {
     /* .botao h3{
         margin-top: 25px;
     } */
@@ -528,7 +532,7 @@ a {
         font-weight: 400;
         font-size: 1em;
     }
-  
+
     .cx_principal {
         /* background-color: rgba(114, 168, 250, 0.404); */
         height: 90vh;
@@ -601,7 +605,7 @@ a {
 
 }
 
-@media (max-width: 768px) {  
+@media (max-width: 768px) {
     .header {
         background-color: #fff;
         position: fixed;
@@ -627,36 +631,38 @@ a {
         align-items: center;
         position: relative;
     }
-    
+
 
     .linha {
-      width: 30px;
-      height: 3px;
-      background: #f24405;
-      margin: 5px;
+        width: 30px;
+        height: 3px;
+        background: #f24405;
+        margin: 5px;
     }
+
     .header__menu {
         position: relative;
     }
 
     .hamburguer {
-      position: absolute;
-      right: 0;
-      top: -15px;
-      cursor: pointer;
+        position: absolute;
+        right: 0;
+        top: -15px;
+        cursor: pointer;
     }
+
     .links__menu {
-      width: 300px;
-      height: 50vh;
-      /* padding-right: 1vh; */
-      background-color: #f9f9f9;
-      position: fixed;
-      right: -100vw;
-      top: 5vh;
-      z-index: 2;
-      transition: 0.5s;
-      flex-direction: column;
-      align-items: center;
+        width: 300px;
+        height: 50vh;
+        /* padding-right: 1vh; */
+        background-color: #f9f9f9;
+        position: fixed;
+        right: -100vw;
+        top: 5vh;
+        z-index: 2;
+        transition: 0.5s;
+        flex-direction: column;
+        align-items: center;
     }
 
     .box_acessibilidade {
@@ -678,44 +684,45 @@ a {
         margin-top: 16px;
         margin-right: 16px;
     }
+
     .links__menu.open {
-      right: 0;
+        right: 0;
     }
-    
-    .pesquisar{
+
+    .pesquisar {
         width: 100%;
         height: 90%;
     }
 
-    .pesquisar h2{
+    .pesquisar h2 {
         margin-top: 60px;
     }
 
-    .base{
-        width:90%;
+    .base {
+        width: 90%;
         height: 50%;
         display: flex;
         flex-direction: column;
     }
 
-    .tipo{
+    .tipo {
         width: 100%;
         height: 50%;
         margin: 5px auto;
     }
 
-    .buscar{
+    .buscar {
         width: 97%;
         height: 50%;
         margin: 5px auto;
     }
-    
-    .datas{
+
+    .datas {
         width: 100%;
         height: 50%;
     }
 
-    .botao{
+    .botao {
         width: 20%;
         margin: 4px;
     }
@@ -723,13 +730,13 @@ a {
     /* .botao h3{
         font-size: 1.4rem;
     } */
-    .midias{
+    .midias {
         font-size: 2vh;
         margin-bottom: 20px;
     }
 
 
-.cx_principal {
+    .cx_principal {
         /* background-color: rgba(114, 168, 250, 0.404); */
         height: 130vh;
         width: auto;
@@ -746,7 +753,7 @@ a {
         height: 30%;
         width: 100%;
     }
-    
+
     .cx_informacoes {
         /* background-color: rgba(255, 200, 183, 0.404); */
         height: 30%;
@@ -755,7 +762,7 @@ a {
         margin-top: 1%;
         padding: 0 5%;
     }
-    
+
     .cx_iframe {
         height: 30%;
         width: 100%;
@@ -772,7 +779,7 @@ a {
     }
 
     .bx_descricao {
-     font-size: 1.1rem;
+        font-size: 1.1rem;
 
     }
 
@@ -823,12 +830,12 @@ a {
     }
 
 
-  }
-  
-  @media (max-width: 450px) {
-   
+}
 
-    .botao h3{
+@media (max-width: 450px) {
+
+
+    .botao h3 {
         font-size: 1rem;
         margin-top: 8px;
     }
