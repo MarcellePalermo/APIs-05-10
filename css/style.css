@@ -136,18 +136,17 @@ ul {
 }
 
 .pesquisar h2 {
-    color: #F24405;
-    margin: 50px 50px 50px 330px;
+    color: #f24405bb;
+    margin: 50px 0px 0px 240px;
     font-size: 3rem;
-    justify-items: center;
 }
 
 .base {
-    width: 50vw;
+    width: 85vw;
     height: 30vh;
-    margin: 400px auto;
-    padding: 15px;
-    background-color: #033e8c4d;
+    margin: 460px auto;
+    padding: 20px;
+    background-color: #033e8c2c;
     display: flex;
     justify-content: center;
     border-radius: 20px;
