@@ -5,30 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
-        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
-    <link rel="shortcut icon" type"image/png" href="./img/favicon-16x16.png">
+    <link rel="shortcut icon" type"image/png" href="./img/logofav.png">
     <link rel="stylesheet" href="./css/style.css">
     <title>Traveller</title>
 </head>
 
 <body>
     <section class="container banner">
-        <header class="header">
+        <header class="header"> 
             <nav class="header__logo">
                 <img src="./img/logo-reduzido.png" alt="" srcset="">
             </nav>
-            <nav class="header__icons">
-                <a href="#"><i class="fas fa-user"></i></a>
-                <a href="#"><i class="fas fa-shopping-cart"></i></a>
-            </nav>
             <nav class="header__menu">
                 <ul class="links__menu">
-                    <li><a href="#" class="header__menu__item">Compras</a></li>
-                    <li><a href="#" class="header__menu__item">Hoteis</a></li>
-                    <li><a href="#" class="header__menu__item">Gastronomia</a></li>
-                    <li><a href="#" class="header__menu__item">Eventos</a></li>
-                    <li><a href="#" class="header__menu__item">Lazer</a></li>
+                    <li><a href="#" class="header__menu__item">Hotéis</a></li>
+                    <li><a href="#" class="header__menu__item">Alugue seu carro</a></li>
+                    <li><a href="#" class="header__menu__item">Sobre nós</a></li>
                 </ul>
                 <div class="hamburguer">
                     <div class="linha"></div>
@@ -36,21 +28,22 @@
                     <div class="linha"></div>
                 </div>
         </header>
+
     </section>
     <section class="container pesquisar">
         <h2>Encontre seu hotel</h2>
-        <nav class="base">
-            <nav class="tipo">
-                <form action="" method="POST" id="" class="tipo_de_viagem">
-                    <select name="" id="tipo_de_viagem">
-                        <option value="0" disabled selected>Tipo de Viagem</option>
-                        <option value="1">Descanso</option>
-                        <option value="2">Trabalho</option>
-                    </select>
-            </nav>
+            <nav class="base">
+                <nav class="tipo">
+                    <form action="" method="POST" id="" class="tipo_de_viagem">
+                        <select name="" id="tipo_de_viagem">
+                            <option value="0" disabled selected>Tipo de Viagem</option>
+                            <option value="1">Em família</option>
+                            <option value="2">Trabalho</option>
+                        </select>
+                </nav>
             <nav class="buscar">
                 <form action="" method="POST" id="" class="buscar_hoteis">
-                    <input type="search" id="buscar_hoteis" placeholder="Ex: Hotel Blue Tree Paulista" autofocus>
+                    <input type="search" id="buscar_hoteis" placeholder="Ex: Blue Tree Premium Paulista" autofocus>
                 </form>
             </nav>
 
@@ -75,12 +68,8 @@
     </section>
 
     <footer class="rodape">
-        <nav class="midias">
-            <a href=""><i class="fab fa-facebook"></i></a>
-            <a href=""><i class="fab fa-instagram-square"></i></a>
-        </nav>
         <p>
-            Direitos reservados - Projeto Traveller
+            Projeto Traveller - FIAP // Gabriela Carvalho Gonçalves- Marcelle Palermo - Marcus Vinicius Gomes de Brito - Raquel Cristina Soares Moura
         </p>
     </footer>
     <script src="./js/menu.js"></script>
@@ -89,7 +78,8 @@
         async></script>
 
     <script>
-        //Cria uma variavel para template para ser usado no retorno da API de Hoteis
+
+        //Variavel para ser usado na API dos Hoteis
         var template = `
     <div class="cx_principal" id="{{hotel-id}}">
         <div class="cx_fotohotel"><img id="fotodohotel" src="{{hotel-img}}" alt="Foto do Hotel">
@@ -116,7 +106,7 @@
                 <div id="vl_km"><i class="icon fas fa-car"></i>{{hotel-cidade}}</div>
             </div>
             <div class="bx_acesso">
-                <a id="lk_site" href="https://www.google.com/search?q={{hotel-site}}"><i
+                <a id="lk_site" href="https://www.booking.com/search?q={{hotel-site}}"><i
                         class="icon fas fa-globe"></i>Site</a>
                 <a id="lk_rota" href="https://goo.gl/maps/gcnTPe36rEGVnNJm8"><i class="icon fas fa-route"></i>Rotas</a>
             </div>
@@ -130,7 +120,7 @@
         function myFunction() {
             debugger;
 
-            //pega o valor da busca 
+            //Valor da busca 
             var localidade = document.getElementById("buscar_hoteis").value;
 
             //URL da API de HOTEIS
@@ -154,7 +144,7 @@
                         var lista = "";
                         var mapas = [];
 
-                        //Transforma o retorno da API em Json para ser tratado como Arrey
+                        //API em Json para ser tratado como Arrey
                         const hoteis = JSON.parse(result);
                         hoteis.forEach(hotel => {
                             //Cria objeto com Latitude e Longetude
@@ -169,7 +159,7 @@
                                 nome: hotel.name
                             });
 
-                            //Subistitui os html pelas informações retornadas da API.
+                            //Substitui os html pelas informações retornadas da API.
                             lista += template
                                 .replace("{{hotel-id}}", hotel.dest_id)
                                 .replace("{{hotel-nome}}", hotel.name)
@@ -200,22 +190,7 @@
         }
     </script>
 
-    <script>
-        //Função para carregar os Mapas
-        function initMap(myLatLng, id_hotel, title) {
 
-            const map = new google.maps.Map(document.getElementById(id_hotel), {
-                zoom: 15,
-                center: myLatLng,
-            });
-
-            new google.maps.Marker({
-                position: myLatLng,
-                map,
-                title: title,
-            });
-        }
-    </script>
 
 </body>
 
