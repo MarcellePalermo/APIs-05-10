@@ -31,8 +31,3 @@ function initMap() {
   });
 }
 ```
-
-## Implementação JS das API's
-
-Utilizando o API Key da integração com RapidAPI para gerar uma conexão com a base de busca de hotéis, por meio de um end-point.
-Utilizamos a API do Google Maps para criar um iframe com a localização do hotel.
