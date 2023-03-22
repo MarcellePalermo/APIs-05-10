@@ -126,7 +126,7 @@ ul {
 
 
 .pesquisar {
-    width: 98, 5vw;
+    width: 100%;
     height: 110vh;
     margin: 0 auto 0px;
     background-image: url(../img/Journey-pana.svg);
@@ -142,7 +142,7 @@ ul {
 }
 
 .base {
-    width: 85vw;
+    width: 85%;
     height: 30vh;
     margin: 460px auto;
     padding: 20px;
@@ -153,24 +153,24 @@ ul {
 }
 
 .tipo {
-    width: 20%;
-    height: 80%;
+    width: 100%;
+    height: 5vh;
     /* background-color: #FFF; */
     margin: 5px;
     display: flex;
 }
 
 .buscar {
-    width: 30%;
-    height: 80%;
+    width: 100%;
+    height: 5vh;
     /* background-color: #FFF; */
     margin: 5px;
     display: flex;
 }
 
 .datas {
-    width: 12, 5%;
-    height: 80%;
+    width: 50%;
+    height: 5vh;
     /* background-color: #FFF; */
     margin: 5px;
     display: flex;
@@ -195,11 +195,11 @@ ul {
 }
 
 .botao {
-    width: 50%;
-    height: 110%;
+    width: 100%;
+    height: 6vh;
     background-color: #033e8c75;
     border-radius: 20px;
-    margin: 1px;
+    /* margin: 1px; */
     text-align: center;
 }
 
@@ -506,7 +506,7 @@ a {
 
 /* media queries */
 
-@media (max-width: 1920px) {
+@media (max-width: 800px) {
     .tipo {
         width: 30%;
         height: 84%;
@@ -518,7 +518,7 @@ a {
 
 }
 
-@media (max-width: 960px) {
+@media (max-width: 800px) {
     /* .botao h3{
         margin-top: 25px;
     } */
@@ -530,14 +530,6 @@ a {
     .acessibilidade {
         font-weight: 400;
         font-size: 1em;
-    }
-    
-     .pesquisar {
-        width: 98, 5vw;
-        height: 110vh;
-        margin: 0 auto 0px;
-        background-image: url(../img/Journey-pana.svg);
-        background-size: cover;
     }
 
     .cx_principal {
@@ -612,7 +604,7 @@ a {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .header {
         background-color: #fff;
         position: fixed;
@@ -697,12 +689,13 @@ a {
     }
 
     .pesquisar {
-        width: 100%;
+        max-width: 100%;
         height: 90%;
     }
 
     .pesquisar h2 {
         margin-top: 60px;
+        font-size: 1.2em;
     }
 
     .base {
@@ -731,7 +724,7 @@ a {
 
     .botao {
         width: 20%;
-        margin: 4px;
+        margin: 40px;
     }
 
     /* .botao h3{
