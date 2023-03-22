@@ -531,6 +531,14 @@ a {
         font-weight: 400;
         font-size: 1em;
     }
+    
+     .pesquisar {
+        width: 98, 5vw;
+        height: 110vh;
+        margin: 0 auto 0px;
+        background-image: url(../img/Journey-pana.svg);
+        background-size: cover;
+    }
 
     .cx_principal {
         /* background-color: rgba(114, 168, 250, 0.404); */
