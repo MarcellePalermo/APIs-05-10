@@ -8,7 +8,7 @@
 
 html {
     font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
+    font-size: 17,5px;
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 
 .box_acessibilidade {
     width: 100%;
-    height: 7vh;
+    height: 8vh;
     display: flex;
     align-items: center;
     background-color: #121212;
@@ -44,23 +44,23 @@ body {
     height: 25px;
 }
 
-.box_item {
-    width: 20%;
+/* .box_item {
+    width: 0%;
     height: 7vh;
     display: flex;
     cursor: pointer;
-    padding: 2px;
-    box-sizing: border-box;
+    padding: 2px; */
+    /* box-sizing: border-box; */
 }
 
 .disclaimer {
-    width: 80%;
+    /* width: 80%;
     height: 7vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     color: #fff;
-    font-size: 1.2em
+    font-size: 1.2em */
 }
 
 .icone_acessibilidade {
@@ -76,7 +76,7 @@ ul {
 
 .header a {
     text-decoration: none;
-    color: #F24405;
+    color: #033E8C;
 }
 
 .header a:hover {
@@ -90,29 +90,29 @@ ul {
 .header {
     width: 100%;
     height: 50px;
-    background-color: #F5F5F5;
-    margin-top: 0px;
+    background-color: #fff;
+    /* margin-top: px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .header__logo img {
-    height: 40px;
-    padding: 0px 60px;
+    height: 250px;
+    padding: 10px 10px;
     box-sizing: border-box;
 }
 
 .header__icons {
-    font-size: 18px;
+    font-size: 1px;
 }
 
 .header__menu ul {
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     margin: 0 30px 0 0;
-    font-weight: bold;
-    letter-spacing: 1px;
+    /* font-weight:bold; */
+    letter-spacing: 2px;
 }
 
 .links__menu {
@@ -121,57 +121,54 @@ ul {
 }
 
 .links__menu a {
-    margin: 0 30px 0 0;
+    margin: 0 20px 0 0;
 }
 
 
 .pesquisar {
-    width: 98, 5vw;
-    height: 110vh;
-    margin: 0 auto 0px;
-    background-image: url(../img/Journey-pana.svg);
-    background-size: cover;
+    /* width: 100%;
+    height: 87vh; */
+    /* margin: 10 auto 0px; */
+    background-image: url(../img/tour_set_2.jpg);
+    background-size: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .pesquisar h2 {
-    color: #f24405bb;
-    margin: 50px 0px 0px 240px;
-    font-size: 3rem;
+    color: #033e8c98;
+    margin: 20px 0px 20px 0px;
+    /* justify-items: center; */
 }
 
 .base {
-    width: 85vw;
-    height: 30vh;
-    margin: 460px auto;
-    padding: 20px;
-    background-color: #033e8c2c;
-    display: flex;
+    width: 55%;
+    height: 60vh;
+    margin: 85px auto;
+    padding: 40px;
+    background-color: #ffffff79;
+    display:inline;
     justify-content: center;
-    border-radius: 20px;
+    /* border-radius: 0px; */
 }
 
 .tipo {
-    width: 20%;
-    height: 80%;
-    /* background-color: #FFF; */
+    width: 100%;
+    height: 5vh;
     margin: 5px;
     display: flex;
 }
 
 .buscar {
-    width: 30%;
-    height: 80%;
-    /* background-color: #FFF; */
+    width: 100%;
+    height: 5vh;
     margin: 5px;
     display: flex;
 }
 
 .datas {
-    width: 12, 5%;
-    height: 80%;
-    /* background-color: #FFF; */
+    /* width: 50%; */
+    height: 5vh;
     margin: 5px;
     display: flex;
     gap: 5px;
@@ -183,32 +180,32 @@ ul {
 #data {
     width: 100%;
     height: 100%;
-    padding: 3px 5px;
-    color: #F24405;
+    /* padding: 3px 5px; */
+    color: #033E8C;
     border: none;
-    border-radius: 10px;
-    font-weight: bold;
+    /* border-radius: 10px; */
+    /* font-weight: bold; */
 }
 
 ::placeholder {
-    color: #F24405;
+    color: #033E8C;
 }
 
 .botao {
-    width: 50%;
-    height: 110%;
+    width: 100%;
+    height: 6vh;
     background-color: #033e8c75;
-    border-radius: 20px;
-    margin: 1px;
+    /* border-radius: 0px; */
     text-align: center;
+
 }
 
-.botao h3 {
+/* .botao h3 {
     font-size: 1.8rem;
     color: #FFF;
     margin-top: 10px;
     align-items: center;
-}
+} */
 
 .botao:hover {
     background-color: #033e8c;
@@ -217,16 +214,9 @@ ul {
     transition: 0.2s;
 }
 
-
-html {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-}
-
 /* CONTAINER PRINCIPAL ----- */
 
 .cx_principal {
-    /* background-color: rgba(114, 168, 250, 0.404); */
     height: 50vh;
     width: 98vw;
     margin-bottom: 5vh;
@@ -236,7 +226,7 @@ html {
     align-items: center;
 }
 
-/* CAIXAS  ^^^^^ */
+/* CAIXAS */
 
 .cx_fotohotel {
     height: 100%;
@@ -244,7 +234,6 @@ html {
 }
 
 .cx_informacoes {
-    /* background-color: rgba(255, 200, 183, 0.404); */
     height: 100%;
     width: 40%;
     display: flex;
@@ -261,7 +250,7 @@ html {
 
 
 iframe {
-    border-radius: 2%;
+    /* border-radius: 2%; */
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -326,7 +315,7 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     padding: 0 1%;
     margin-right: 15px;
 }
@@ -340,7 +329,7 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     padding: 0 3% 0 0;
 }
 
@@ -357,7 +346,7 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     padding: 0 1%;
 }
 
@@ -384,7 +373,7 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     padding: 0 1%;
     margin-right: 5%;
 }
@@ -398,7 +387,7 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     padding: 0 1%;
     margin-right: 1%;
 
@@ -413,7 +402,7 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     padding: 0 1%;
     margin-right: 1%;
 }
@@ -424,7 +413,7 @@ iframe {
     font-size: 0.8rem;
     display: flex;
     align-items: center;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     padding: 0 1%;
 }
 
@@ -457,7 +446,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     padding: 0 1%;
     margin-right: 5%;
 }
@@ -472,7 +461,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     padding: 0 1%;
     margin-right: 1%;
 }
@@ -484,12 +473,14 @@ a {
 
 .rodape {
     width: 100%;
-    height: 5vh;
+    font-size: 2vh;
+    height: 3vh;
     display: flex;
-    padding: 5px;
+    padding: 15px;
     flex-direction: column;
     align-items: center;
-    background-image: radial-gradient(circle at 77% 43%, rgba(168, 168, 168, 0.04) 0%, rgba(168, 168, 168, 0.04) 50%, rgba(10, 10, 10, 0.04) 50%, rgba(10, 10, 10, 0.04) 100%), radial-gradient(circle at 33% 65%, rgba(248, 248, 248, 0.04) 0%, rgba(248, 248, 248, 0.04) 50%, rgba(228, 228, 228, 0.04) 50%, rgba(228, 228, 228, 0.04) 100%), radial-gradient(circle at 92% 79%, rgba(152, 152, 152, 0.04) 0%, rgba(152, 152, 152, 0.04) 50%, rgba(28, 28, 28, 0.04) 50%, rgba(28, 28, 28, 0.04) 100%), radial-gradient(circle at 91% 13%, rgba(41, 41, 41, 0.04) 0%, rgba(41, 41, 41, 0.04) 50%, rgba(214, 214, 214, 0.04) 50%, rgba(214, 214, 214, 0.04) 100%), linear-gradient(270deg, rgb(242, 116, 5), rgb(5, 199, 242));
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     background-size: cover;
     color: #FFF;
 }
@@ -506,7 +497,7 @@ a {
 
 /* media queries */
 
-@media (max-width: 1920px) {
+@media (max-width: 800px) {
     .tipo {
         width: 30%;
         height: 84%;
@@ -518,7 +509,7 @@ a {
 
 }
 
-@media (max-width: 960px) {
+@media (max-width: 800px) {
     /* .botao h3{
         margin-top: 25px;
     } */
@@ -530,14 +521,6 @@ a {
     .acessibilidade {
         font-weight: 400;
         font-size: 1em;
-    }
-    
-     .pesquisar {
-        width: 98, 5vw;
-        height: 110vh;
-        margin: 0 auto 0px;
-        background-image: url(../img/Journey-pana.svg);
-        background-size: cover;
     }
 
     .cx_principal {
@@ -612,7 +595,7 @@ a {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .header {
         background-color: #fff;
         position: fixed;
@@ -622,13 +605,15 @@ a {
     }
 
     .header__logo img {
-        height: 30px;
+        height: 250px;
+        padding: 10px 10px;
+        box-sizing: border-box;
     }
 
     .acessibilidade_mobile {
-        width: 300px;
-        height: 50vh;
-        /* padding-right: 1vh; */
+        width: 189px;
+        height: 100vh;
+        padding-right: 1vh;
         background-color: #f9f9f9;
         right: -100vw;
         top: 5vh;
@@ -641,10 +626,10 @@ a {
 
 
     .linha {
-        width: 30px;
-        height: 3px;
-        background: #f24405;
-        margin: 5px;
+        width: 20px;
+        height: 2px;
+        background: #033E8C;
+        margin: 3px;
     }
 
     .header__menu {
@@ -659,8 +644,9 @@ a {
     }
 
     .links__menu {
-        width: 300px;
-        height: 50vh;
+        font-size: 2vh;
+        width: 160px;
+        height: 9vh;
         /* padding-right: 1vh; */
         background-color: #f9f9f9;
         position: fixed;
@@ -697,46 +683,74 @@ a {
     }
 
     .pesquisar {
-        width: 100%;
-        height: 90%;
+        background-size: 145%;
+        display: flex;
+        flex-direction: column;
     }
 
     .pesquisar h2 {
-        margin-top: 60px;
+        color: #033e8c98;
+        margin: 80px 0px 0px 0px;
     }
 
     .base {
-        width: 90%;
-        height: 50%;
+        width: 86%;
+        height: 10%;
         display: flex;
         flex-direction: column;
     }
 
     .tipo {
         width: 100%;
-        height: 50%;
-        margin: 5px auto;
+        height: 100%;
+        /* padding: 3px 5px; */
+        color: #033E8C;
+        border: none;
+        /* border-radius: 10px; */
+        /* font-weight: bold; */
     }
 
     .buscar {
-        width: 97%;
-        height: 50%;
-        margin: 5px auto;
+        width: 100%;
+        height: 5vh;
+        margin: 5px;
+        display: flex;
     }
 
     .datas {
         width: 100%;
-        height: 50%;
+        height: 100%;
+        /* padding: 3px 5px; */
+        color: #033E8C;
+        border: none;
+        /* border-radius: 10px; */
+        /* font-weight: bold; */
     }
 
     .botao {
-        width: 20%;
-        margin: 4px;
+        width: 100%;
+        height: 5vh;
+        margin: 1px;
+    }
+
+    .rodape {
+        width: 100%;
+        font-size: 10px;
+        height: 1px;
+        display: flex;
+        padding: 18px;
+        flex-direction: column;
+        align-items: center;
+        background: rgb(238, 174, 202);
+        background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+        background-size: cover;
+        color: #FFF;
     }
 
     /* .botao h3{
         font-size: 1.4rem;
     } */
+    
     .midias {
         font-size: 2vh;
         margin-bottom: 20px;
@@ -744,7 +758,6 @@ a {
 
 
     .cx_principal {
-        /* background-color: rgba(114, 168, 250, 0.404); */
         height: 130vh;
         width: auto;
         margin-bottom: 5vh;
@@ -762,7 +775,6 @@ a {
     }
 
     .cx_informacoes {
-        /* background-color: rgba(255, 200, 183, 0.404); */
         height: 30%;
         width: 100%;
         margin-bottom: 1%;
@@ -842,8 +854,8 @@ a {
 @media (max-width: 450px) {
 
 
-    .botao h3 {
-        font-size: 1rem;
-        margin-top: 8px;
-    }
+        /* .botao h3 {
+            font-size: 1rem;
+            margin-top: 8px;
+        } */
 }
